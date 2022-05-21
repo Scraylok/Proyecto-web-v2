@@ -1,0 +1,56 @@
+[
+    {
+        "id":"001",
+        "nombre":"Symetra",
+        "precio": 1500,
+        "img": "../Resources/skin 1.jpg",
+        "desc": ""
+    },
+    {
+        "id":"002",
+        "nombre":"Sigma",
+        "precio": 1500,
+        "img": "../Resources/skin 2.jpg",
+        "desc": ""
+    },
+    {
+        "id":"003",
+        "nombre":"Genji",
+        "precio": 1500,
+        "img": "../Resources/skin 3.jpg",
+        "desc": ""
+    },
+    {
+        "id":"004",
+        "nombre":"Orisa",
+        "precio": 1500,
+        "img": "../Resources/skin 4.jpg",
+        "desc": ""
+    },
+    {
+        "id":"005",
+        "nombre":"Sombra",
+        "precio": 1500,
+        "img": "../Resources/skin 1.jpg",
+        "desc": ""
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

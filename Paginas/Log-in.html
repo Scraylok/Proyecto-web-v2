@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <!-- SEO -->
+       <title>Acceder a la cuenta</title>
+       <meta name="description" content="Acceder a tu cuenta en Kaizen">
+       <meta name="keywords" content="Kaizen, Log-in, incicio,Acceder,cuenta">
+   
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/Estilos.css">
+    
+    
+</head>
+<body>
+
+    <main>
+       
+         <!-- header o menu -->
+
+      <header class="seccion__relog--header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+          <!-- logo -->
+          <a href="#" class="navbar-brand">
+            <img src="../Resources/Kaizen.png" alt="Logo Kaizen" loading="lazy" class="header__logo">
+          </a>
+          <!-- Navbar -->
+          <div class="container-fluid">
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido-nav" aria-controls="contenido-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="contenido-nav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link link" href="../index.html">Inicio</a>
+                  <li class="nav-item">
+                    <a class="nav-link link" href="../Paginas/juegos.html">Juegos</a>
+                  </li>
+      
+                  <li class="nav-item link">
+                    <a class="nav-link "  href="../Paginas/tienda.html">Tienda</a>
+                  </li>
+      
+                  <li class="nav-item link">
+                    <a class="nav-link" href="../Paginas/foro.html">Foro</a>
+                  </li>
+      
+                  <li>
+                    <a class="nav-link link" href="../Paginas/nosotros.html">Nosotros</a>
+                  </li>
+      
+                  <li class="nav-item link">
+                    <a class="nav-link" href="../Paginas/soporte.html">Soporte</a>
+                  </li>
+      
+                  <li class="nav-item link">
+                    <a class="nav-link"  href="../Paginas/Registro.html">Registro</a>
+                  </li>
+                  <li class="nav-item link">
+                    <a class="nav-link active" aria-current="page" href="../Paginas/Log-in.html">Acceder</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Formolurio de Log-in -->
+      <form class="container-sm  margintop__100px d-flex justify-content-center text-white margin__bottom--150" onsubmit="loginfuncion()">
+      
+
+        <div class="container row">
+          <div class="col-sm-12">
+            <h2 class="titulo">Inicia Sesión<h2></h2>
+            <label class="usuario subtitulo" for="Usuario_mail">Usuario</label>
+            <div class="container-fluid d-flex align-items-center justify-content-center ">
+
+              <input class="boxes" type="text" name="usuario"  placeholder="Usuario o mail" id="usuario">
+
+            </div>
+            <label class="subtitulo" for="contraseña">Contraseña</label>
+            <div class="container-fluid d-flex align-items-center justify-content-center ">
+
+              <input class="boxes" type="password" name="contraseña" placeholder="contraseña" id="contraseña">
+
+               </div>
+
+               <div class="container-sm">
+                <div class="boton__login  m-3 justify-content-evenly">
+                  <button class="m-3" type="submit">Acceder</button>
+                  
+                  
+                </div>
+                <p class="d-flex flex-wrap justify-content-center d-flex align-items-center" id="resultado">Logearse</p>
+               </div>
+            
+          </div>
+
+        </div>
+      
+      </form>
+
+      
+
+
+
+
+    
+
+            
+    </main>
+    
+        
+   <!-- footer -->
+
+   <footer class="page-footer  mt-1 bg-dark text-white">
+    <div class="container">
+      <div class="row py-4 d-flex aling-items-center">
+        <div class="col-md-12 text-center">
+          <div class="text-uppercase font-weight-bold">Siguenos</div>
+          <a href="https://es-la.facebook.com/"><img class="footer__redessociales" src="../Resources/iconofacebookvector.png" alt=""></a>
+          <a href="https://twitter.com/"><img class=" footer__redessociales " src="../Resources/twittervector.png" alt=""></a>
+          <a href="https://www.instagram.com/?hl=es-la"><img class="footer__redessociales " src="../Resources/iconoinstagram.png" alt=""></a>
+          <a href="https://www.youtube.com/"><img class="footer__redessociales " src="../Resources/youtube.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+   </footer>
+
+
+<!--  Scripts    -->
+
+<script src="../JavaScript/Registro.js"></script>
+
+
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+</body>
+</html>

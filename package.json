@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-web",
+  "version": "1.0.0",
+  "description": "TP-Kaizen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/Estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "sweetalert2": "^11.4.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
