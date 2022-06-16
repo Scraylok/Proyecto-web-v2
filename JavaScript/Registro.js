@@ -1,18 +1,3 @@
-// JavaScript formulario de registro y login
-
-
-
-
-
-// function botonregistro() {
-//     Swal.fire({
-//         position: 'top-end',
-//         icon: 'success',
-//         title: 'Te has registrado satisfactoriamente',
-//         showConfirmButton: false,
-//         timer: 1500
-//       })
-// }
 
 function registrarse(){
     event.preventDefault();

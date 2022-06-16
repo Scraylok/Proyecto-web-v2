@@ -75,9 +75,9 @@ function cantidadCambio(event){
 function añadirAlCarritoClick(event){
     var boton = event.target;
     var comprarProductos = boton.parentElement;
-    var titulo = comprarProductos.getElementsByClassName("producto__titulo")[0].innerText;
-    var precio = comprarProductos.getElementsByClassName("precio")[0].innerText;
-    var productoimg = comprarProductos.getElementsByClassName("producto__img")[0].src;
+    var titulo = comprarProductos.getElementsByClassName("producto__titulo")[0].innerText
+    var precio = comprarProductos.getElementsByClassName("precio")[0].innerText
+    var productoimg = comprarProductos.getElementsByClassName("producto__img")[0].src
     agregarproductoalcarrito(titulo, precio, productoimg); 
     actualizartotal();
 }
